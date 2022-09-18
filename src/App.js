@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import { HomeButton } from './components'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <HomeButton icon='production'>
+        生产
+      </HomeButton>
+      <HomeButton icon='other'>
+        其他
+      </HomeButton>
+      <HomeButton icon='shopping'>
+        购物
+      </HomeButton>
+      <HomeButton icon='finance'>
+        金融
+      </HomeButton>
+      <HomeButton icon='manufacturer'>
+        制造
+      </HomeButton>
     </div>
   );
 }

@@ -1,0 +1,40 @@
+.home-button {
+  background-image: url(../../../public/bg_btn.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 14.94rem;
+  width: 15.38rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.icon {
+  display: block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 3rem;
+  width: 3rem;
+}
+.icon-manufacturer {
+  background-image: url(../../../public/manufacturer.png);
+}
+.icon-other {
+  background-image: url(../../../public/other.png);
+}
+.icon-shopping {
+  background-image: url(../../../public/shopping.png);
+}
+.icon-finance {
+  background-image: url(../../../public/finance.png);
+}
+.icon-production {
+  background-image: url(../../../public/production.png);
+}
+.btn-text {
+  height: 2.81rem;
+  font-size: 1.88rem;
+  font-weight: 800;
+  color: #FFFFFF;
+  line-height: 2.81rem;
+}

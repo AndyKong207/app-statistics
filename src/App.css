@@ -1,5 +1,13 @@
 .App {
   text-align: center;
+  background-image: url(../public/bg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 67.5rem;
+  width: 120rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .App-logo {
